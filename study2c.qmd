@@ -1,0 +1,11 @@
+---
+title: "Study 2 Sample Report"
+author: "431 Staff"
+date: last-modified
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(comment = NA)
+```
+
+A Sample 2 Study Report will be posted soon.
