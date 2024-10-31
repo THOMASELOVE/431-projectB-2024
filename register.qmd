@@ -12,7 +12,7 @@ knitr::opts_chunk$set(comment = NA)
 
 You will use [this Google Form](https://bit.ly/431-projB-registration-2024) to register for Project B. The deadline (for Project B Registration) is specified on the Course Calendar (it is in mid-November.)
 
-- [The form](https://bit.ly/431-projB-registration-2024) should open on November 1. If it's after November 1, and you cannot access the form, please let Dr. Love know via email or Campuswire so he can open it up.
+- [The form](https://bit.ly/431-projB-registration-2024) should open on 2024-11-02.
 - Your response will be automatically emailed to your CWRU email once you submit the form. If you need to edit your submission, you can do so with the link included in that email.
 - If you are working with a partner, there will be an opportunity to indicate that on this form, and only one of you (you or your partner) should complete the whole thing, while the other person needs to only complete a few of the items, as you'll see.
 
@@ -40,9 +40,9 @@ Note that you will need to select at least 5 of the available 20 time periods, a
 
 #### Friday December 6 (Zoom only) - last day of classes
 
-- 9:15 AM - 10:30 AM
-- 3:00 PM - 4:15 PM
-- 4:15 PM - 5:30 PM
+- 9:00 AM - 10:15 AM
+- 2:00 PM - 3:15 PM
+- 3:15 PM - 4:30 PM
 
 #### Monday December 9 (either On Site or Zoom) - Reading Day
 

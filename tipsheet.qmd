@@ -42,7 +42,7 @@ immediately after you load the tidyverse, and then don't include theming of this
 
 ## General Issues
 
-4. **Check your HTML for plot-text transition problems.** One of the hardest things to get people to do is add empty lines in R Markdown after they create a plot or heading. Forgetting to do this can cause your plots to show up in the HTML with the start of the next paragraph shown to the right of the plot instead of below the plot. Make sure you avoid this mistake.
+4. **Check your HTML for plot-text transition problems.** One of the hardest things to get people to do is add empty lines in R Markdown after they create a plot or heading. Forgetting to do this can cause your plots to show up in the HTML with the start of the next paragraph shown to the right of the plot instead of below the plot. Make sure you avoid this mistake. Also, **Hit ENTER after every pipe and + in your code so that you avoid scrollable windows for code in your HTML output.**
 
 5. **Missing Data Mechanism and Dealing with Missingness.** You need to have an explicit statement about your assumed missing data mechanism, including either the term **MCAR**, **MAR** or **MNAR**, in both Study 1 and Study 2, and you have to be specific about what you've done. This should be part of your HTML file everywhere where you impute (as in Study 2 variables other than your outcome and key predictor) or filter to complete cases (as in Study 1 and with your Study 2 outcome and key predictor). None of your analyses (in Study 1 or Study 2) should involve missing values: either you should have imputed missing values or you should have filtered to complete cases.
 

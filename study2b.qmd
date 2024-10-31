@@ -47,8 +47,8 @@ All of your work should be done in a fresh R project in a clean directory on you
     - If you want to divide this work into subsections, that's up to you.
 8. The Smaller Model
     - Fit a linear regression model using a subset of your predictors that is interesting, again using the training sample. Summarize its prediction equation, and the other materials available through a tidy summary of the coefficients.
-    - Your subset must include at least the key predictor, and a perfectly reasonable strategy for this project is simply to compare the "naive" model with the key predictor alone to the full model with all predictors you have identified.
-    - If you prefer to use another subset of predictors from your big model as your smaller model, that's fine, too. If you'd prefer to use an automated or semi-automated strategy for identifying your subset of predictors from the big model, that's also fine.
+    - Your subset must include at least two predictors, including the key predictor, and a perfectly reasonable strategy for this project is simply to compare a "naive" model with the key predictor and one other predictor to the full model with all of the predictors you have identified.
+    - If you prefer to use another subset of predictors from your big model as your smaller model, that's fine, too. If you'd prefer to use an automated or semi-automated strategy for identifying your subset of predictors from the big model, that's also fine, but you must have at least two predictors in your smaller model.
     - If you want to divide this work into subsections, that would be helpful.
 9. In-Sample Comparison
     - Present four subsections here, as labeled below.

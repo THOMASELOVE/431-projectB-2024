@@ -38,7 +38,7 @@ test_sample <-
 10. Provide appropriate, well-labeled visualizations of your outcome, and investigate potential transformations of that outcome for the purpose of fitting regression models in a useful way. Whatever transformation (including no transformation at all) should be used for the steps that follow.
 11. Produce two competitive models fit using least squares (rather than a Bayesian approach) for predicting your outcome using your clean data that provide evidence regarding your research question.
     - One of these models should be the full model with all candidate predictors included.
-    - Your other model should be a well-motivated subset of your full model, that at least includes the key predictor. The naive strategy of using as your subset the key predictor alone is 100% appropriate.
+    - Your other model should be a well-motivated subset of your full model, that at least includes the key predictor and one more predictor. 
 12. Assess the performance of your two models (full model or subset) and come to a conclusion about which is better. This assessment should includes both in-sample (predictive performance and adherence to assumptions) and holdout sample (predictive quality) assessments. Be sure to attend to back-transformation properly should that be necessary, in evaluating the quality of predictions.
 13. Use the results of the model you chose to answer your research question, and then describe the limitations of this study and next steps you would like to pursue.
 

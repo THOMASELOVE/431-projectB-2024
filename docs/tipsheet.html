@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="431 Staff">
-<meta name="dcterms.date" content="2024-10-19">
+<meta name="dcterms.date" content="2024-10-29">
 
 <title>431 Project B Tips – 431 Project B</title>
 <style>
@@ -194,7 +194,7 @@ window.Quarto = {
   </li>  
         <li>
     <a class="dropdown-item" href="./study1c.html">
- <span class="dropdown-text">Study 1 Example Report</span></a>
+ <span class="dropdown-text">Study 1 Sample Report</span></a>
   </li>  
     </ul>
   </li>
@@ -213,7 +213,7 @@ window.Quarto = {
   </li>  
         <li>
     <a class="dropdown-item" href="./study2c.html">
- <span class="dropdown-text">Study 2 Example Report</span></a>
+ <span class="dropdown-text">Study 2 Sample Report</span></a>
   </li>  
     </ul>
   </li>
@@ -287,7 +287,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024-10-19</p>
+      <p class="date">2024-10-29</p>
     </div>
   </div>
   
@@ -330,7 +330,7 @@ window.Quarto = {
 <section id="general-issues" class="level2">
 <h2 class="anchored" data-anchor-id="general-issues">General Issues</h2>
 <ol start="4" type="1">
-<li><p><strong>Check your HTML for plot-text transition problems.</strong> One of the hardest things to get people to do is add empty lines in R Markdown after they create a plot or heading. Forgetting to do this can cause your plots to show up in the HTML with the start of the next paragraph shown to the right of the plot instead of below the plot. Make sure you avoid this mistake.</p></li>
+<li><p><strong>Check your HTML for plot-text transition problems.</strong> One of the hardest things to get people to do is add empty lines in R Markdown after they create a plot or heading. Forgetting to do this can cause your plots to show up in the HTML with the start of the next paragraph shown to the right of the plot instead of below the plot. Make sure you avoid this mistake. Also, <strong>Hit ENTER after every pipe and + in your code so that you avoid scrollable windows for code in your HTML output.</strong></p></li>
 <li><p><strong>Missing Data Mechanism and Dealing with Missingness.</strong> You need to have an explicit statement about your assumed missing data mechanism, including either the term <strong>MCAR</strong>, <strong>MAR</strong> or <strong>MNAR</strong>, in both Study 1 and Study 2, and you have to be specific about what you’ve done. This should be part of your HTML file everywhere where you impute (as in Study 2 variables other than your outcome and key predictor) or filter to complete cases (as in Study 1 and with your Study 2 outcome and key predictor). None of your analyses (in Study 1 or Study 2) should involve missing values: either you should have imputed missing values or you should have filtered to complete cases.</p></li>
 <li><p><strong>Spell check doesn’t check headings and subheadings.</strong> Using spell check in R Studio is trivial (just hit F7) and important, but be aware that you still need to read your HTML to be sure that you don’t have problems. A particular issue is that the spell check <strong>doesn’t check your headings and subheadings</strong> so you’ll want to pay especially close attention to those pieces. In particular, I’ve seen several people misspell the word “Transformations” in section 6 of Study 2.</p></li>
 <li><p><strong>Your confidence level is 90%, not 95%.</strong> All of Project B uses a 90% confidence level, so the phrase “<em>p</em> &lt; 0.05” is 100% irrelevant to this work. If you must compare a <em>p</em> value to something, be sure it is 0.10. I would also strongly suggest you search through your work and eliminate the terms “statistical significance” and even “significant” unless you have a very good reason to include them.</p></li>

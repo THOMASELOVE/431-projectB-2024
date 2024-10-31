@@ -77,7 +77,7 @@ You must use the same data source for Study 1 and Study 2 in Project B. That dat
 
 10. In Study 1, filter to complete cases. In Study 2, You should only filter to complete cases on the outcome and key predictor in Study 2. Then, perform single (simple) imputation using the `mice` package for any variables that are neither your outcome or your key predictor in Study 2 with missing values.
 
-11. You are welcome to apply **janitor::clean_names** at the start or end of your cleaning, if you like, but I wouldn't otherwise change the variable names, at least for NHANES. If you do decide to change the names, that's OK, but you will then need to specify the original names as well in the codebook.
+11. You are welcome to apply **janitor::clean_names** at the start or end of your cleaning, if you like. If you do decide to change the names as well (and that's a good idea if a name is long or confusing, especially with NHANES), that's great, but be sure to specify the original names as well in the codebook.
 
 12. Please don't include sanity checks in your report. We'll trust you have to have done that work on your own.
 

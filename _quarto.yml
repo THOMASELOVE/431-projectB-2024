@@ -25,7 +25,7 @@ website:
         - href: study1b.qmd
           text: "Study 1 Report Specifications"
         - href: study1c.qmd
-          text: "Study 1 Example Report"
+          text: "Study 1 Sample Report"
       - text: "Study 2"
         menu:
         - href: study2a.qmd
@@ -33,7 +33,7 @@ website:
         - href: study2b.qmd
           text: "Study 2 Report Specifications"
         - href: study2c.qmd
-          text: "Study 2 Example Report"
+          text: "Study 2 Sample Report"
       - href: self_eval.qmd
         text: "Self-Evaluation"
       - href: checklist.qmd
