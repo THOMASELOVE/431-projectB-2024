@@ -8,19 +8,19 @@ date: last-modified
 
 Project B is the second of two real data science projects you'll be doing this semester. It involves the completion of four tasks, which you’ll start working on at the start of November.
 
-1. You will complete a Registration Form to obtain my approval for your plan, let me know if you’re working with a partner, and schedule your oral presentation.
+1. You will complete a Registration Form to obtain my approval for what you propose, let me know if you’re working with a partner, and schedule your oral presentation.
 2. You will build Quarto and HTML reports describing your work.
-3. You (and your partner, if applicable) will present your project sometime between 12-06 and 12-11 to Dr. Love in his office in person or via Zoom. These will be scheduled immediately after the Project B plans have been submitted.
+3. You (and your partner, if applicable) will present your project sometime between 12-06 and 12-11 to Dr. Love in his office in person or via Zoom. These will be scheduled immediately after the Project B Registration Forms have been submitted.
 4. Finally, you will complete a Self-Evaluation form.
 
 # What's on this Website
 
 - [The Data](data1.qmd): Instructions on getting data for Project B
     - You'll either use [data from NHANES](data2.qmd), or from [some other source](data3.qmd).
-- [Registration information](register.qmd) for your Project B plan.
+- [Registration information](register.qmd) proposing your Project B.
     - This involves completing a [Google Form](https://bit.ly/431-projB-registration-2024) by the deadline in mid-November specified on the [Course Calendar](https://thomaselove.github.io/431-2024/calendar.html). In this form, you will:
       - specify whether or not you are working with a partner
-      - tell us a little about the data source (NHANES or other) you plan to use
+      - tell us a little about the data source (NHANES or other) you intend to use
       - provide options for when you can give your oral presentation, and whether you prefer to do so in person or via Zoom
 - Instructions for [Study 1](study1a.qmd)
     - You'll find information on [required Study 1 analyses](study1a.qmd)
@@ -40,7 +40,7 @@ All of the material you need (from a statistical and coding perspective) to do P
 
 # Project B Deliverables
 
-1. You will complete a [Registration Form](register.qmd) to obtain my approval for your plan, let me know if you're working with a partner, and schedule your oral presentation, by the (mid-November) deadline on the [Course Calendar](https://thomaselove.github.io/431-2024/calendar.html).
+1. You will complete a [Registration Form](register.qmd) to obtain my approval for your proposed work, let me know if you're working with a partner, and schedule your oral presentation, by the (mid-November) deadline on the [Course Calendar](https://thomaselove.github.io/431-2024/calendar.html).
 2. You (and your partner, if applicable) will present your project to Dr. Love in his office. Details on the Oral Presentation are found in the [Checklist](checklist.qmd) menu above. Presentations will be scheduled on December 6-11 using the [Registration Form](register.qmd). 
 3. You will build two Quarto and HTML reports (separate reports for [Study 1](study1a.qmd) and [Study 2](study2a.qmd)) by the Project B Portfolio deadline in the [Course Calendar](https://thomaselove.github.io/431-2024/calendar.html).
     - If you're not using NHANES data, you'll also submit your data to Dr. Love at that time.
