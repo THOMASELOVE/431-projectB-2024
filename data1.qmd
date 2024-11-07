@@ -89,7 +89,7 @@ You must use the same data source for Study 1 and Study 2 in Project B. That dat
 # To use data from a non-NHANES source that meets with Dr. Love's approval. 
 
 - Please read the **Data Requirements for Study 1 and Study 2** and **Tips on Cleaning Your Data** above, then read the additional details on what is required if you're instead [working with some other data source here](data3.qmd).
-- Again, to encourage people to use data other than NHANES, there is a three-point bonus available to all projects which use non-NHANES data.
+- Again, to encourage people to use data other than NHANES, there is a four-point bonus available to all projects which use non-NHANES data.
 
 
 
