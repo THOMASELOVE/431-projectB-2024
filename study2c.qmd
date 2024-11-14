@@ -8,4 +8,4 @@ date: last-modified
 knitr::opts_chunk$set(comment = NA)
 ```
 
-A Study 2 Sample Report will be posted by class time on Thursday 2024-11-07.
+A Study 2 Sample Report will be posted as soon as possible.

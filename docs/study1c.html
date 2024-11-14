@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="431 Staff">
-<meta name="dcterms.date" content="2024-10-31">
+<meta name="dcterms.date" content="2024-11-14">
 
 <title>Study 1 Sample Report – 431 Project B</title>
 <style>
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -187,8 +216,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-study-1-sample-report" id="toc-the-study-1-sample-report" class="nav-link active" data-scroll-target="#the-study-1-sample-report">The Study 1 Sample Report</a></li>
+  <li><a href="#study-1-sample-report-documents" id="toc-study-1-sample-report-documents" class="nav-link" data-scroll-target="#study-1-sample-report-documents">Study 1 Sample Report Documents</a></li>
+  <li><a href="#caveats" id="toc-caveats" class="nav-link" data-scroll-target="#caveats">Caveats</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -212,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024-10-31</p>
+      <p class="date">2024-11-14</p>
     </div>
   </div>
   
@@ -224,9 +261,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A Study 1 Sample Report will be posted by class time on Thursday 2024-11-07.</p>
+<p>The <a href="./sample-study1.html">Sample Study 1 Report</a> is now available.</p>
+<p>The Sample Study 1 Report provides a brief demonstration of an appropriate analysis for each of the required Study 1 analyses in Project B. Complete instructions for your Study 1 report <a href="./study1b.html">are available here</a>.</p>
+<section id="the-study-1-sample-report" class="level2">
+<h2 class="anchored" data-anchor-id="the-study-1-sample-report">The Study 1 Sample Report</h2>
+<p>The Sample Study 1 Report demonstrates many of the elements you would need to complete, including:</p>
+<ul>
+<li>data ingest and merging</li>
+<li>cleaning the data</li>
+<li>codebook, analytic tibble and data summary</li>
+<li>Analysis A: Compare two means/medians using paired samples</li>
+<li>Analysis B: Compare two means/medians using independent samples</li>
+<li>Analysis C: Compare 3-6 means/medians using independent samples</li>
+<li>Analysis D: Create and analyze a <span class="math inline">\(2 \times 2\)</span> table</li>
+<li>Analysis E: Create and analyze a <span class="math inline">\(J \times K\)</span> table, where <span class="math inline">\(2 \leq J \leq 5\)</span> and <span class="math inline">\(3 \leq K \leq 5\)</span></li>
+<li>Session Information</li>
+</ul>
+<p>for a sample of 53 observations (before I drop missing values) from a 2015 class survey of 431 students and TAs from that year. Since the sample size is much smaller than what you will be using, some issues are more problematic here than you might have to deal with in your work.</p>
+</section>
+<section id="study-1-sample-report-documents" class="level2">
+<h2 class="anchored" data-anchor-id="study-1-sample-report-documents">Study 1 Sample Report Documents</h2>
+<p>The <a href="./sample-study1.html">Sample Study 1 Report</a> can be viewed in HTML at <a href="./sample-study1.html">this link</a>.</p>
+<p>There is a link at the top of the HTML document where you can download the complete Quarto code used to create the Sample Study 1 Report, which might be a helpful <strong>template</strong> for your Study 1 report.</p>
+<p>The raw data files for the Sample Study 1 Report are described in the Quarto and HTML files above and are found on <a href="https://github.com/THOMASELOVE/431-data">the 431-data website</a>. They are named:</p>
+<ul>
+<li>projectB-study1-demo-survey-2015a.xlsx (first 20 observations, all 21 columns)</li>
+<li>projectB-study1-demo-survey-2015b.csv (remaining 33 observations, some of the 21 columns)</li>
+<li>projectB-study1-demo-survey-2015c.csv (remaining 33 observations, rest of the 21 columns)</li>
+</ul>
+<p>The final data set after merging for the Sample Study 1 Report includes 53 observations on 21 columns. The subjects are identified with a code called <code>s_id</code> in each of the raw data files.</p>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<ol type="1">
+<li><p>The Sample Study 1 Report does not precisely follow the requirements from Study 1 for the Research Question and Conclusions sections, because that is a big part of your job.</p></li>
+<li><p>The Sample Study 1 Report has a much smaller data set than you will have, so I don’t hold myself in the Sample Study 1 Report to the standards for cell sizes and numbers of observations that you will need to meet in your Study 1.</p></li>
+<li><p>In the Sample Study 1 Report, I produce all 5 analyses (you will do only 4) and I also run several different possible analyses in most cases, when you will instead select one. For instance, in comparing paired samples, the demonstration shows code for confidence intervals based on the t distribution and the bootstrap, while your Project B Study 1 will include just one of these, should you choose to do that analysis.</p></li>
+<li><p>Outside of those caveats, these demonstrations are meant to be accurate and reflect the level of detail I’m looking for, although it is certainly possible to expand on these demonstrations in your work, if that seems helpful. I believe the Sample Study 1 Report to be largely accurate, but many eyes will find some issues, probably.</p></li>
+</ol>
+<p>If people find corrections and would be good enough to post them to Campuswire (under the projectB folder, please) I will attempt to reflect those edits in revisions. If I do something in the Sample Study 1 Report that appears to be in conflict with the instructions for Study 1, then (a) please let me know, and (b) treat the Study 1 instructions as your guidepost in completing your work.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
